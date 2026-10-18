@@ -2,7 +2,7 @@
 
 > **Archived.** This is a 2018-2019 course project (Software Engineering 2, Politecnico di Milano, A.Y. 2018-2019) and is no longer maintained. The repository was last updated in 2020.
 
-Team: Talip Turkmen, Buse Gunay, Ezgi Tasti. This repository contains the requirements and design documentation for TrackMe, with formal Alloy models of parts of the requirements. It has no application code.
+This repository contains the requirements and design documentation for TrackMe, with formal Alloy models of parts of the requirements. It has no application code.
 
 
 ### Description
@@ -44,3 +44,9 @@ Design-Process/        design documents (DD), component and sequence diagrams, d
 ## Build and run
 
 There is no code to build. To check the Alloy models, open a `.als` file (for example `Requirement-Process/Alloy/Alloy.als` or `DeliveryFolder/AlloyModel/MergedAlloy.als`) in the Alloy Analyzer from https://alloytools.org and run its commands and assertions. Documents and diagrams can be opened directly.
+
+## Team
+
+- Talip Turkmen ([@talipturkmen](https://github.com/talipturkmen))
+- Ezgi Tasti ([@ezgitasti](https://github.com/ezgitasti))
+- Buse Gunay ([@busegunay](https://github.com/busegunay))
