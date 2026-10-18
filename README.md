@@ -1,4 +1,9 @@
-# Final project - TrackMe
+# TrackMe - Final project (Software Engineering 2)
+
+> **Archived.** This is a 2018-2019 course project (Software Engineering 2, Politecnico di Milano, A.Y. 2018-2019) and is no longer maintained. The repository was last updated in 2020.
+
+Team: Talip Turkmen, Buse Gunay, Ezgi Tasti. This repository contains the requirements and design documentation for TrackMe, with formal Alloy models of parts of the requirements. It has no application code.
+
 
 ### Description
 TrackMe is a company that wants to develop a software-based service allowing third parties to monitor the location and health status of individuals. This service is called __Data4Help__. The service supports the registration of individuals who, by registering, agree that TrackMe acquires their data (data acquisition can happen through smartwatches or similar devices). Also, it supports the registration of third parties. After registration, these third parties can request:
@@ -19,3 +24,23 @@ Finally, TrackMe realizes that another great source of revenues could be the dev
  * [Talip Turkmen](http://github.com/talipturkmen)
  * [Ezgi Tasti](https://github.com/Ezgitst)
  * [Buse Gunay](https://github.com/busegunay)
+
+## Tech stack and tools
+
+- Alloy (formal models, `.als` files; analysed with the Alloy Analyzer)
+- UML diagrams (use case, class, state, sequence, component, deployment), mockups
+- Word, PDF and PowerPoint documents
+
+## Repository structure
+
+```
+DeliveryFolder/        delivered documents (RASD1, RASD2, DD1 PDFs) and merged Alloy model
+Requirement-Process/   requirements analysis (RASD sources, use cases, goals, assumptions),
+                       Alloy models per service, diagrams, mockups, meeting notes
+Design-Process/        design documents (DD), component and sequence diagrams, deployment view,
+                       implementation and integration plans, meeting notes
+```
+
+## Build and run
+
+There is no code to build. To check the Alloy models, open a `.als` file (for example `Requirement-Process/Alloy/Alloy.als` or `DeliveryFolder/AlloyModel/MergedAlloy.als`) in the Alloy Analyzer from https://alloytools.org and run its commands and assertions. Documents and diagrams can be opened directly.
